@@ -15,6 +15,7 @@ function toggleMenu() {
     menuBtn.classList.add("close");
     menu.classList.add("show");
     menuNav.classList.add("show");
+    menuBranding.classList.add("show");
   } else {
   }
 }
