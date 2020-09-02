@@ -14,6 +14,7 @@ function toggleMenu() {
   if (!!showMenu) {
     menuBtn.classList.add("close");
     menu.classList.add("show");
+    menuNav.classList.add("show");
   } else {
   }
 }
