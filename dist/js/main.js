@@ -13,6 +13,7 @@ menuBtn.addEventListener("click", toggleMenu);
 function toggleMenu() {
   if (!!showMenu) {
     menuBtn.classList.add("close");
+    menu.classList.add("show");
   } else {
   }
 }
