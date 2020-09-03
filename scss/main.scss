@@ -55,4 +55,9 @@ main {
       margin-top: 20vh;
     }
   }
+
+  //Rotate Into X with menu lines
+  &.close {
+    transform: rotate(180deg);
+  }
 }
