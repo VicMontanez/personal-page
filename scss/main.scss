@@ -91,6 +91,9 @@ main {
       }
 
       //Line 2 - Hide
+      &:nth-child(2) {
+        opacity: 0;
+      }
 
       // Line 3 - Rotate
     }
