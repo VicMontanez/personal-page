@@ -79,4 +79,9 @@ main {
     background: #fff;
     @include easeOut;
   }
+
+  //Rotate Into X With Menu Lines
+  &.close {
+    transform: rotate(180deg);
+  }
 }
